@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar{
+    height: 9vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-orange{
+    color: orangered;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-orange-nav{
+    color: orangered;
+}
+.text-orange-nav:hover{
+    color: orangered;
+    cursor: text;
 }
 
-.App-link {
-  color: #61dafb;
+.text-white-nav{
+    color: azure;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-white-nav:hover{
+    color: orangered !important;
 }
+
+.bg-form {
+    width: 500px;
+}
+
+.btn-orange-submit{
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border: 2px solid orangered;
+}
+
+.btn-orange-submit:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.btn-orange-nav{
+    background-color: orangered;
+    color: white;
+    padding: 6px 32px;
+    border: 2px solid orangered;
+}
+
+.btn-orange-nav:hover{
+    background-color: rgb(192, 54, 3);
+    color: white;
+    border: 2px solid rgb(192, 54, 3);
+}
+
+.landingpage{
+    height: 91vh;
+}
+
+.formguestpage{
+    height: 91vh;
+}
+
+.btn-orange{
+    color: white;
+    background-color: orangered;
+    padding: 6px 32px;
+    border: 2px solid orangered;
+}
+
+.btn-outline-orange{
+    color: black;
+    padding: 6px 32px;
+    border: 2px solid orangered;
+}
+
+.btn-outline-orange:hover{
+    border: 2px solid orangered;
+    color: white;
+    padding: 6px 32px;
+    background-color: orangered;
+}
+
+.btn-orange:hover{
+    color: white;
+    background-color: rgb(192, 54, 3);
+    padding: 6px 32px;
+    border: 2px solid rgb(192, 54, 3);
+}
+
+.text-orange-shop{
+    color: orangered;
+}
+
+.text-orange-shop:hover{
+    color: rgb(216, 60, 3);
+}
+
+.img{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.bg-orange{
+    background-color: orangered;
+}
+.bg-chat{
+    height: 90vh;
+}
+
+.chat{
+    height: 80%;
+}
+
+.bubblechat{
+    background-color: orangered;
+    border-radius: 8px;
+    padding: 6px 12px ;
+    color: white;
+}
+
+
+
+@media (max-width: 1200px) { 
+    .formguestpage{
+        height: 100% !important;
+    }
+ }
