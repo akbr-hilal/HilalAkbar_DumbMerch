@@ -12,6 +12,9 @@ function AdminListProductPage() {
                 <h2 className="fw-bold text-center text-orange mb-2">
                     Your Product List
                 </h2>
+                <div className="text-end mb-4">
+                    <button className="btn btn-success">Add Product</button>
+                </div>
                 <Table
                     striped
                     bordered

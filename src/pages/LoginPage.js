@@ -3,6 +3,7 @@ import { Container, Col, Row, Form, FloatingLabel, Alert } from "react-bootstrap
 import Logo from "../assets/Logo.png";
 import NavGuest from "../components/NavGuest";
 import { Link, useNavigate } from "react-router-dom";
+import { account } from "../data/Data";
 
 
 
@@ -19,10 +20,11 @@ const LoginPage = () => {
     const [isSubmit, setIsSubmit] = useState(false);
 
     const AdminAccount = {
-        name: "Alamanda",
-        email: "al@mail.com",
-        password: "121202",
+        name: account.name,
+        email: account.email,
+        password: account.password,
     }
+    
     const UserAccount = {
         name: "Hilal",
         email: "hilal@mail.com",

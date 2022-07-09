@@ -7,7 +7,7 @@ import AdminPage from "./AdminPage";
 import AdminChatPage from "./AdminChatPage";
 import AdminListProductPage from "./AdminListProductPage";
 import AdminListCategoryPage from "./AdminListCategoryPage";
-import AdminProfile from "./AdminProfile";
+import AdminProfilePage from "./AdminProfilePage";
 
 // Page User
 import UserPage from "./UserPage";
@@ -24,7 +24,7 @@ export {
     AdminChatPage,
     AdminListProductPage,
     AdminListCategoryPage,
-    AdminProfile,
+    AdminProfilePage,
     UserPage,
     UserWishlistPage,
     UserChatPage,

@@ -12,6 +12,7 @@ import {
     AdminChatPage,
     AdminListProductPage,
     AdminListCategoryPage,
+    AdminProfilePage,
     UserPage,
     UserWishlistPage,
     UserProfilePage,
@@ -30,6 +31,7 @@ function App() {
                 <Route exact path="/chatadmin" element={<AdminChatPage />} />
                 <Route exact path="/listproduct" element={<AdminListProductPage />} />
                 <Route exact path="/listcategory" element={<AdminListCategoryPage />} />
+                <Route exact path="/profileadmin" element={<AdminProfilePage />} />
                 <Route exact path="/home" element={<UserPage />} />
                 <Route exact path="/wishlist" element={<UserWishlistPage />} />
                 <Route exact path="/profileuser" element={<UserProfilePage />} />

@@ -62,7 +62,7 @@ function NavAdmin() {
                                 Chat
                             </NavLink>
                             <NavLink
-                                to="/admin-profile"
+                                to="/profileadmin"
                                 className={({ isActive }) =>
                                     isActive
                                         ? activeClassName
